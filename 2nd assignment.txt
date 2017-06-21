@@ -1,0 +1,90 @@
+//1st program
+
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+{
+   int i,j,k,l,n=0,A[7]={1,0,0,1,0,1,1};
+
+
+   for(i=o;i<7;i++)
+
+   {
+        if(A[i]==0)
+        n=n+1;
+      
+        else
+        return;
+     
+    }
+
+printf("number of zeros are --> %d",n);
+
+   for(j=o;j<n;j++)
+   {
+      A[j]=0;
+
+   }
+
+    for(k=n;k<7;k++)
+
+    {
+       A[k]=1;
+     
+     }
+ 
+printf("modified array will be {%d,%d,%d,%d,%d,%d,%d} ",A[0],A[1],A[2],A[3],A[4],A[5],A[6]); 
+
+getch();
+      
+}
+
+
+
+//2nd program
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+{
+
+   int i, j, k, l, A[];
+
+   printf("enter the size of the array --> ");
+
+   scanf("%d",&k);
+   for(l=0;l<k,l++)
+   {
+     scanf("%d",A[l]);
+
+   }
+ 
+   printf("enter the number of which index has to be determined --> ");
+
+   scanf("%d",&i);
+
+   for(j=0;j<5;j++)
+
+   {
+     if(A[j]==i)
+     
+     printf("index of the number %d is %d",i,j);
+
+     else          
+     
+     printf("number is not available in the array");
+   }
+     
+
+getch();
+
+}
+
+
+
+
+
+
